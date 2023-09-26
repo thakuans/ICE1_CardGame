@@ -29,6 +29,7 @@ public class CardTrick {
 
             boolean found = false;
             for(int i = 0; i < magicHand.length; i++){
+             if (magicHand[i].equals(luckyCard)) {
                 found = true;
                 break;
             }

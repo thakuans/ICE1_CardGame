@@ -12,6 +12,7 @@ package card;
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
  * @author anshika tHakur
+ student id =991698396
  */
 public class Card {
 
@@ -47,7 +48,7 @@ public class Card {
         this.value = value;
     }
    
-   public boolean equals(object obj){
+   public boolean equals(Object obj){
       if (this == obj){
          return true;
       }

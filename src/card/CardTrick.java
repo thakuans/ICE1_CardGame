@@ -23,6 +23,7 @@ public class CardTrick {
             c.setValue((int)(Math.random()*13+1));
             c.setSuit (Card.SUITS[(int)(Math.random()*4)]);
             magicHand[i] = c;
+        }
              Card luckyCard = new Card();
             luckyCard.setValue(3);
             luckyCard.setSuit("Spades");

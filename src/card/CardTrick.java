@@ -21,14 +21,14 @@ public class CardTrick {
         {
             Card c = new Card();
             c.setValue((int)(Math.random()*13+1));
-            c.setSuit((Card.SUITS[(int)(Math.random()*4)]);
+            c.setSuit (Card.SUITS[(int)(Math.random()*4)]);
             magicHand[i] = c;
              Card luckyCard = new Card();
             luckyCard.setValue(3);
             luckyCard.setSuit("Spades");
 
             boolean found = false;
-            for(int i=0; i<magicHand.length;i++){
+            for(int i = 0; i < magicHand.length; i++){
                 found = true;
                 break;
             }
